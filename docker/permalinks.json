@@ -1,0 +1,21 @@
+{
+  "prod": {
+    "cee37cc1-5399-47ef-9418-21f9b6444bfa": {
+      "variable" : "href",
+      "template" : "http://jz13.java.no/presentation.html?id={href}"
+    },
+    "9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f": {
+      "variable" : "href",
+      "template" : "http://2014.javazone.no/presentation.html?id={href}"
+    },
+    "0e6d98e9-5b06-42e7-b275-6abadb498c81": {
+      "variable" : "href",
+      "template" : "http://2015.javazone.no/details.html?talk={href}"
+    },
+    "3baa25d3-9cca-459a-90d7-9fc349209289": {
+      "variable" : "title",
+      "template" : "https://2016.javazone.no/program/{title}"
+    }
+  }
+}
+
