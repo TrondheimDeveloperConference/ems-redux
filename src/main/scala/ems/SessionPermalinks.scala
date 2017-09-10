@@ -79,6 +79,12 @@ object SessionPermalinks extends LazyLogging {
 
     def parseExpansion(v: JValue): Expansion = {
       v match {
+        case obj@JString(_) => {
+          Expansion(
+            stringOrEmpty(obj \ "variable"),
+            stringOrEmpty(obj \ "template")
+          )
+        }
         case obj@JObject(_) => {
           Expansion(
             stringOrEmpty(obj \ "variable"),
